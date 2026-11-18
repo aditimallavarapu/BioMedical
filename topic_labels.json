@@ -1,0 +1,37 @@
+{
+ "_note": "Hand-written names for the k-means clusters, keyed by cluster id. They match the tfidf run on the 11-16-26 download with default settings. If you change the data, k, or the embedder, cluster ids change: check build/topics.json and rewrite these.",
+ "biomedical": {
+  "0": "Medical imaging and image analysis",
+  "1": "Therapeutic candidates (preclinical and clinical)",
+  "2": "Pain, opioids and addiction",
+  "3": "Sensors, wearables and exposure monitoring",
+  "4": "Cell and gene therapy, regenerative medicine",
+  "5": "Surgical and implantable devices",
+  "6": "Digital health, patient monitoring, clinical decision support",
+  "7": "Behavioral and mental health interventions",
+  "8": "Diagnostics and assays",
+  "9": "Vaccines and antivirals",
+  "10": "Alzheimer's, dementia and aging",
+  "11": "Research tools: proteomics, genomics, sequencing",
+  "12": "Health and STEM education",
+  "13": "Drug discovery platforms and screening",
+  "14": "Antimicrobials and infection control",
+  "15": "Cancer therapy and oncology"
+ },
+ "fields": {
+  "0": "Aviation, drones and autonomy",
+  "1": "Modeling and simulation software",
+  "2": "Space systems",
+  "3": "Lasers, photonics and quantum",
+  "4": "Water, agriculture, carbon and chemical processes",
+  "5": "Air Force open-call awards (boilerplate text)",
+  "6": "Defense software, data platforms and training",
+  "7": "Energy, batteries and thermal",
+  "8": "Sensors, test and measurement",
+  "9": "Radiation detection, nuclear and accelerator technology",
+  "10": "Advanced materials and manufacturing",
+  "11": "Radio, radar and communications",
+  "12": "Abstract redacted (DoD)",
+  "13": "AI and machine learning"
+ }
+}

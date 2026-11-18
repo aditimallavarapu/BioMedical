@@ -1,0 +1,98 @@
+{
+ "rows_raw": 207731,
+ "rows_after_cleaning": 202832,
+ "duplicates_removed": 653,
+ "window": [
+  2020,
+  2024
+ ],
+ "rows_in_window": 27139,
+ "awards_per_year": {
+  "2020": 7313,
+  "2021": 6876,
+  "2022": 6644,
+  "2023": 6283,
+  "2024": 23
+ },
+ "embedder": "tfidf",
+ "biomedical_awards": 6835,
+ "biomedical_amount": 5343823535.0,
+ "all_amount": 15911855845.0,
+ "not_on_map": 2,
+ "nsf_test_size": {
+  "positives_BM_MD_DH_PT": 521,
+  "negatives_other_codes": 1172
+ },
+ "transfer_model_hhs_seeds_only": {
+  "threshold": 0.22,
+  "nsf_auc": 0.9334,
+  "nsf_held_out_half": {
+   "precision": 0.749,
+   "recall": 0.828,
+   "f1": 0.786,
+   "n": 860
+  },
+  "defense_health_program_recall": 0.286,
+  "hhs_recall": 0.991
+ },
+ "final_model": {
+  "threshold": 0.59,
+  "nsf_auc": 0.966,
+  "nsf_held_out_half": {
+   "precision": 0.836,
+   "recall": 0.843,
+   "f1": 0.84,
+   "n": 860
+  },
+  "defense_health_program_recall": 0.61,
+  "hhs_recall": 0.962
+ },
+ "keyword_baseline_3plus_hits": {
+  "nsf": {
+   "precision": 0.717,
+   "recall": 0.858,
+   "f1": 0.781,
+   "n": 1693
+  },
+  "defense_health_program_recall": 0.599
+ },
+ "nsf_BT_share_flagged": 0.483,
+ "biomedical_by_basis": {
+  "HHS award": 5512,
+  "NSF topic code": 521,
+  "Text model": 428,
+  "Defense Health Program": 374
+ },
+ "flagged_outside_hhs_by_agency": {
+  "NSF": 687,
+  "DoD": 573,
+  "USDA": 27,
+  "DOE": 13,
+  "DOC": 7,
+  "NASA": 7,
+  "DHS": 3,
+  "DOT": 2,
+  "EPA": 2,
+  "ED": 2
+ },
+ "share_of_each_agency_flagged": {
+  "DHS": 0.016,
+  "DOC": 0.027,
+  "DOE": 0.005,
+  "DOT": 0.015,
+  "DoD": 0.041,
+  "ED": 0.02,
+  "EPA": 0.014,
+  "HHS": 1.0,
+  "NASA": 0.003,
+  "NSF": 0.368,
+  "USDA": 0.06
+ },
+ "topics_vs_nih_institute_nmi": 0.321,
+ "teams": {
+  "n": 4455,
+  "both_programs": 160,
+  "both_phases": 891,
+  "multi_agency": 181
+ }
+}
